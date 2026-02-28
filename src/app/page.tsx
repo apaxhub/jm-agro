@@ -1,8 +1,22 @@
+import { Hero } from "@/components/sections/Hero";
+import { FeaturedProductCategories } from "@/components/sections/FeaturedProductCategories";
+import { ExportHighlights } from "@/components/sections/ExportHighlights";
+import { WhyChooseUs } from "@/components/sections/WhyChooseUs";
+import { CertCarousel } from "@/components/sections/CertCarousel";
+import { SEOTextBlock } from "@/components/sections/SEOTextBlock";
+
 export default function Home() {
   return (
-    <div className="bg-black text-fg border border-border flex items-center justify-center h-screen ">
-      <h1 className="text-primary font-inter">Dashboard</h1>
-      <p className="text-muted font-ibm">Consistent and predictable UI.</p>
-    </div>
+    <main>
+      <Hero />
+      <FeaturedProductCategories />
+      <WhyChooseUs />
+      <ExportHighlights />
+      <CertCarousel />
+      <SEOTextBlock
+        title="India's Premium Agri Export — Backed by Compliance & Traceability"
+        content="Tattvam Agri Export, based in Visnagar, Mahesana, Gujarat, is a certified exporter of premium Indian spices, oil seeds, millets, dehydrated products, and specialty agro commodities. Situated minutes from Unjha — Asia's largest cumin and fennel trading market — we offer unmatched sourcing access, farm-to-port traceability, and reliable bulk supply for global importers. Our products are certified under FSSAI, HACCP, ISO 22000, KOSHER, and Spices Board of India, meeting the stringent import requirements of USA, UK, Canada, UAE, and over 11 countries worldwide."
+      />
+    </main>
   );
 }

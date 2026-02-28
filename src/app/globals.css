@@ -35,6 +35,7 @@
 }
 
 @layer base {
+
   h1,
   h2,
   h3,
@@ -42,46 +43,48 @@
   h5,
   h6 {
     font-family: Inter, sans-serif;
+    color: #09090B;
   }
 
   p {
-    font-family: "IBM Plex Sans", sans-serif;
+    font-family: "Inter", sans-serif;
   }
 }
+
 /* ================================
-   Design Tokens – Dark Only
+   Design Tokens – Minimal Light Theme
    ================================ */
 :root {
-  /* Core colors */
-  --color-bg: #000000;        /* near-black for better readability */
-  --color-fg: #ffffff;
-  --color-primary: #70ffef;
-
-  /* Derived colors */
-  --color-muted: rgba(255, 255, 255, 0.6);
-  --color-border: rgba(255, 255, 255, 0.12);
-  --color-surface: #111111;
+  --color-bg: #F8F6F0;
+  --color-fg: #1C1C1C;
+  --color-primary: #2A5C3D;
+  --color-primary-light: #2A5C3D;
+  /* Using same green to maintain 3-color rule */
+  --color-muted: #5C6B61;
+  --color-border: #EAE7E0;
+  --color-surface: #FFFFFF;
+  --color-accent: #1C1C1C;
 }
 
 /* ================================
-   Base resets
+   Base
    ================================ */
 * {
   border-color: var(--color-border);
+  box-sizing: border-box;
 }
 
 html,
 body {
   background-color: var(--color-bg);
   color: var(--color-fg);
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, Ubuntu, "Helvetica Neue", Arial, sans-serif;
+  font-family: "Inter", system-ui, -apple-system, sans-serif;
   text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth;
 }
 
-/* ================================
-   Typography defaults
-   ================================ */
+/* Typography */
 h1,
 h2,
 h3,
@@ -90,6 +93,8 @@ h5,
 h6 {
   color: var(--color-fg);
   font-weight: 600;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
 }
 
 p {
@@ -97,19 +102,15 @@ p {
   line-height: 1.6;
 }
 
-/* ================================
-   Selection
-   ================================ */
+/* Selection */
 ::selection {
-  background-color: var(--color-primary);
-  color: #000000;
+  background-color: var(--color-border);
+  color: var(--color-fg);
 }
 
-/* ================================
-   Scrollbar (optional but branded)
-   ================================ */
+/* Scrollbar */
 ::-webkit-scrollbar {
-  width: 8px;
+  width: 6px;
 }
 
 ::-webkit-scrollbar-track {
@@ -118,8 +119,9 @@ p {
 
 ::-webkit-scrollbar-thumb {
   background: var(--color-border);
+  border-radius: 3px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--color-primary);
+  background: var(--color-muted);
 }
