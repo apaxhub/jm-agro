@@ -1,25 +1,26 @@
 // ============================================================
-//  TATTVAM AGRI EXPORT – Single Source of Truth Data Layer
+//  VENU OVERSEAS – Single Source of Truth Data Layer
 // ============================================================
 
 export const siteConfig = {
-    brandName: "Tattvam Agri Export",
-    tagline: "Pure From Earth. Trusted Globally.",
+    brandName: "Venu Overseas",
+    tagline: "Trusted Agriculture Exporter from Gujarat",
+    subtext: "Delivering Quality Pulses, Spices, Rice and Fresh Produce to Global Markets since 2023",
     description:
-        "Premium Indian agricultural exporter specializing in spices, oil seeds, millets, dehydrated products, and agro commodities. Based in Visnagar, Gujarat — the heartland of Asia's largest spice trade.",
+        "Venu Overseas, based in Mahesana, Gujarat, is a dedicated exporter and supplier of agricultural commodities including pulses, premium spices, rice varieties, fresh fruits and vegetables. With end-to-end quality checks and export logistics capability, we work closely with international buyers to meet diverse market requirements with timely delivery and transparent trade practices.",
     location: {
         city: "Mahesana",
         district: "Mahesana",
         state: "Gujarat",
         country: "India",
-        pincode: "384315",
-        nearBy: "Unjha — Asia's Largest Spice Trading Centre",
-        address: "Tattvam Agri Export, GIDC Industrial Area, Visnagar, Mahesana, Gujarat 384315",
+        pincode: "384002",
+        nearBy: "Gujarat",
+        address: "F/20 Siddhi Vinayak Complex, Near Sarvodaya Bank, TB Road, Mahesana – 384002, Gujarat, India",
     },
     contact: {
-        phone: "+91 94265 XXXXX",
-        email: "export@tattvam.in",
-        whatsapp: "+91 94265 XXXXX",
+        phone: "+91 7990262851",
+        email: "venuoverseas57@gmail.com",
+        whatsapp: "+91 7990262851",
     },
     social: {
         linkedin: "#",
@@ -30,137 +31,122 @@ export const siteConfig = {
 
 export const products = [
     {
-        slug: "whole-spices",
-        name: "Whole Spices",
-        description: "Premium sun-dried whole spices directly sourced from Gujarat's fertile farms: Ajwain, Cumin, Coriander, Fennel (Saunf), Fenugreek, Turmeric, Dry Ginger, and Red Chilli.",
-        items: ["Ajwain (Carom Seeds)", "Cumin (Jeera)", "Coriander Seeds (Dhaniya)", "Fennel Seeds (Saunf)", "Fenugreek Seeds (Methi)", "Turmeric (Haldi)", "Dry Ginger", "Red Chilli"],
-        seoKeywords: ["whole spices export India", "cumin export Gujarat", "ajwain export India", "bulk spice supplier India"],
+        slug: "pulses",
+        name: "Pulses",
+        description: "Moong Dal, Chana Dal, Toor Dal, Green Gram, White Urad Dal and Brown Chana",
+        items: ["Moong Dal", "Chana Dal", "Toor Dal", "Green Gram", "White Urad Dal", "Brown Chana"],
+        seoKeywords: ["pulses export", "moong dal export", "chana dal exporter"],
         color: "bg-surface",
         accent: "#E4E4E7",
+        image: "/public/assets/products/product-1.png",
     },
     {
-        slug: "blended-powders",
-        name: "Blended Spices & Powders",
-        description: "Custom-blended spice mixes and ground powders formulated to buyer specifications. Available in food-service and retail packaging with private label options.",
-        items: ["Ground Cumin Powder", "Coriander Powder", "Turmeric Powder", "Red Chilli Powder", "Custom Spice Blends", "Dehydrated Ginger Powder"],
-        seoKeywords: ["ground spices export India", "blended spice supplier", "private label spice exporter India"],
+        slug: "rice",
+        name: "Basmati & Non-Basmati Rice",
+        description: "Parboiled and Raw Basmati Rice, Golden Sella variants",
+        items: ["Parboiled Basmati Rice", "Raw Basmati Rice", "Golden Sella"],
+        seoKeywords: ["basmati rice export", "non-basmati rice export", "golden sella rice exporter"],
         color: "bg-surface",
         accent: "#E4E4E7",
+        image: "/public/assets/products/product-2.png",
     },
     {
-        slug: "dehydrated-products",
-        name: "Dehydrated Products",
-        description: "High-quality dehydrated vegetable powders and flakes processed under hygienic conditions preserving natural flavour, colour and nutritional value.",
-        items: ["Dehydrated Onion Flakes", "Dehydrated Garlic Powder", "Dehydrated Ginger Powder", "Dehydrated Green Chilli", "Dehydrated Tomato Flakes"],
-        seoKeywords: ["dehydrated vegetable exporter India", "dehydrated spice powder export", "dry ginger powder exporter"],
+        slug: "spices",
+        name: "Spices",
+        description: "Black Pepper, Dry Red Chilli, Cumin Seeds, Turmeric, Ginger and Seasonal Blends",
+        items: ["Black Pepper", "Dry Red Chilli", "Cumin Seeds", "Turmeric", "Ginger", "Seasonal Blends"],
+        seoKeywords: ["spices exporter", "black pepper export", "cumin seeds export", "turmeric export"],
         color: "bg-surface",
         accent: "#E4E4E7",
+        image: "/public/assets/products/product-3.png",
     },
     {
-        slug: "oil-seeds",
-        name: "Oil Seeds",
-        description: "Export-grade oil seeds sourced from trusted farming communities in North Gujarat. Sortex cleaned, moisture-optimized and packed for global markets.",
-        items: ["Sesame Seeds (White, Black, Hulled)", "Groundnuts / Peanuts", "Castor Seeds", "Mustard Seeds"],
-        seoKeywords: ["oil seeds export India", "sesame seed exporter Gujarat", "peanut export India", "bulk oil seeds supplier"],
+        slug: "fresh-produce",
+        name: "Fresh Produce",
+        description: "Fresh Dragon Fruit, Watermelon, Papaya, Banana, Green Grapes and Vegetables",
+        items: ["Dragon Fruit", "Watermelon", "Papaya", "Banana", "Green Grapes", "Vegetables"],
+        seoKeywords: ["fresh produce export", "fruits exporter", "vegetables export India"],
         color: "bg-surface",
         accent: "#E4E4E7",
-    },
-    {
-        slug: "millets-cereals",
-        name: "Millets & Cereals",
-        description: "Nutrient-dense ancient millets and cereals gaining global demand for their health benefits. Compliant with organic and FSSAI standards.",
-        items: ["Bajra (Pearl Millet)", "Jowar (Sorghum)", "Ragi (Finger Millet)", "Foxtail Millet", "Barnyard Millet", "Wheat"],
-        seoKeywords: ["millets exporter India", "millet export Gujarat", "ancient grain exporter India"],
-        color: "bg-surface",
-        accent: "#E4E4E7",
-    },
-    {
-        slug: "specialty",
-        name: "Peanut Butter & Specialties",
-        description: "Value-added specialty products including natural peanut butter and unique agro-processed offerings for health-conscious global markets.",
-        items: ["Natural Peanut Butter", "Flavoured Peanut Butter", "Peanut Flour", "Specialty Agro Products"],
-        seoKeywords: ["peanut butter export India", "specialty agro products India", "value added agri export"],
-        color: "bg-surface",
-        accent: "#E4E4E7",
+        image: "/public/assets/products/product-4.png",
     },
 ];
 
 export const certifications = [
-    { name: "FSSAI", fullName: "Food Safety & Standards Authority", icon: "🏛️" },
-    { name: "HACCP", fullName: "Hazard Analysis Critical Control", icon: "🔬" },
-    { name: "ISO 22000", fullName: "Food Safety Management", icon: "✅" },
-    { name: "KOSHER", fullName: "Kosher Certified for Export", icon: "✡️" },
-    { name: "Spices Board", fullName: "Govt of India Registered", icon: "🌿" },
+    {
+        name: "Export-Ready Quality Standards",
+        fullName: "Adherence to food safety and export quality norms; buyer to verify specific certifications as required",
+        icon: "✅",
+        image: "/public/assets/certifications/cert-1.png"
+    },
 ];
 
 export const exportMarkets = [
-    { name: "USA", region: "North America", top: "28%", left: "14%", flag: "🇺🇸" },
-    { name: "Canada", region: "North America", top: "22%", left: "16%", flag: "🇨🇦" },
-    { name: "UK", region: "Europe", top: "27%", left: "47%", flag: "🇬🇧" },
     { name: "UAE", region: "Middle East", top: "46%", left: "60%", flag: "🇦🇪" },
-    { name: "Oman", region: "Middle East", top: "50%", left: "63%", flag: "🇴🇲" },
-    { name: "Qatar", region: "Middle East", top: "48%", left: "61%", flag: "🇶🇦" },
     { name: "Saudi Arabia", region: "Middle East", top: "50%", left: "58%", flag: "🇸🇦" },
-    { name: "Africa", region: "Africa", top: "60%", left: "52%", flag: "🌍" },
+    { name: "Egypt", region: "Africa", top: "40%", left: "55%", flag: "🇪🇬" },
+    { name: "Morocco", region: "Africa", top: "35%", left: "48%", flag: "🇲🇦" },
     { name: "Bangladesh", region: "South Asia", top: "48%", left: "74%", flag: "🇧🇩" },
-    { name: "Indonesia", region: "Southeast Asia", top: "60%", left: "82%", flag: "🇮🇩" },
     { name: "China", region: "East Asia", top: "38%", left: "78%", flag: "🇨🇳" },
+    { name: "Thailand", region: "Southeast Asia", top: "55%", left: "80%", flag: "🇹🇭" },
+    { name: "Turkey", region: "Europe", top: "35%", left: "55%", flag: "🇹🇷" },
+    { name: "France", region: "Europe", top: "30%", left: "48%", flag: "🇫🇷" },
 ];
 
 export const whyChooseUs = [
     {
-        title: "Sourced from Unjha",
-        description: "Located minutes from Asia's largest spice market, ensuring first-hand access to the freshest origin materials.",
-        icon: "MapPin",
-    },
-    {
-        title: "Global Compliance",
-        description: "Complete FSSAI, HACCP, ISO 22000 and KOSHER documentation ready for stringent international import protocols.",
+        title: "Quality Control",
+        description: "End-to-end quality checks emphasizing reliability in sourcing and export operations.",
         icon: "ShieldCheck",
     },
     {
-        title: "Farm Traceability",
-        description: "Direct partnerships with Mahesana farming communities provide transparent batch-level tracing.",
-        icon: "Route",
+        title: "Global Reach",
+        description: "Supplying quality fresh produce and agricultural goods to global markets.",
+        icon: "Globe",
     },
     {
-        title: "Private Label Processing",
-        description: "Flexible food-grade packaging from bulk sacks to retail pouches under buyer's own brand.",
-        icon: "Box",
+        title: "Transparent Trade",
+        description: "We work closely with international buyers to meet requirements with transparent practices.",
+        icon: "Handshake",
+    },
+    {
+        title: "Timely Delivery",
+        description: "Ensuring timely delivery of all our commodities to diverse market requirements.",
+        icon: "Clock",
     },
 ];
 
 export const exportProcess = [
-    { step: 1, title: "Farm Sourcing", description: "Direct procurement from certified farmers in Gujarat's Mahesana district and verified FPOs." },
-    { step: 2, title: "Quality Grading & Testing", description: "Sortex cleaning, physical inspection, lab testing for aflatoxin, pesticide residue, moisture and microbiological parameters." },
-    { step: 3, title: "Processing & Packaging", description: "Hygienic processing in our HACCP-certified facility. Custom bulk/retail/private label packaging available." },
-    { step: 4, title: "Certification & Documentation", description: "Phytosanitary certificate, COA from accredited labs, FSSAI certification, invoice, packing list and customs documentation." },
-    { step: 5, title: "Shipping & Delivery", description: "Reliable freight forwarding with experienced logistics partners ensuring timely delivery to all global destinations." },
+    { step: 1, title: "Sourcing", description: "Procuring directly from the best farms in Gujarat." },
+    { step: 2, title: "Quality Check", description: "Rigorous quality checks for all fresh produce and agricultural goods." },
+    { step: 3, title: "Processing & Packaging", description: "Ensuring all products are packaged to meet export requirements." },
+    { step: 4, title: "Documentation", description: "Providing necessary certifications and export documentation." },
+    { step: 5, title: "Timely Export", description: "Efficient logistics for reliable global delivery." },
 ];
 
 export const blogPosts = [
     {
-        title: "Why Unjha is the World Capital of Cumin Trade",
+        title: "Expanding Spices to Global Markets",
         category: "Insights",
         date: "Jan 2024",
-        excerpt: "Explore how the Gujarat spice belt powers India's $4B+ annual spice exports and why buyers worldwide source from this region.",
+        excerpt: "Venu Overseas explores the potential of the growing demand for Indian spices in the Middle East.",
     },
     {
-        title: "Aflatoxin Testing: What Importers Must Know",
+        title: "The Key to Quality Fresh Produce",
         category: "Quality",
         date: "Feb 2024",
-        excerpt: "A practical guide to aflatoxin limits, EU/US MRLs, and how to ensure clean spice shipments from India.",
+        excerpt: "How end-to-end quality checks ensure only the best fresh produce makes it to our international partners.",
     },
     {
-        title: "Millets Go Global: Ancient Indian Grains",
+        title: "Navigating International Pulse Trade",
         category: "Trends",
         date: "Mar 2024",
-        excerpt: "As health-conscious markets drive millet demand worldwide, Indian exporters are scaling up for a global superfood surge.",
+        excerpt: "An overview of market requirements and export opportunities for Indian pulses in Europe and Asia.",
     },
     {
-        title: "Private Label Spices: B2B Importer Guide",
+        title: "Sourcing from Mahesana, Gujarat",
         category: "Guide",
         date: "Mar 2024",
-        excerpt: "How to work with an Indian exporter for private label packaging, MOQ, and brand customization for retail markets.",
+        excerpt: "Why the Mahesana region is becoming a hub for premium agricultural exports.",
     },
 ];

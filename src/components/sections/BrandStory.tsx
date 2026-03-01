@@ -46,20 +46,20 @@ export function BrandStory() {
                     >
                         <p className="text-xs font-bold tracking-widest text-primary uppercase mb-3">Our Heritage</p>
                         <h2 className="text-3xl md:text-5xl font-bold text-fg mb-6 leading-tight">
-                            Rooted in Gujarat.
+                            Rooted in {siteConfig.location.state}.
                             <br />
                             <span className="text-primary">Serving the World.</span>
                         </h2>
 
                         <div className="space-y-5 text-muted leading-relaxed text-base">
                             <p>
-                                <strong className="text-fg">Tattvam</strong> — meaning <em>&quot;essence&quot;</em> in Sanskrit — reflects our core belief: deliver the purest essence of Indian agricultural produce to global markets.
+                                <strong className="text-fg">{siteConfig.brandName}</strong> delivers the purest essence of Indian agricultural produce to global markets.
                             </p>
                             <p>
-                                We are based in <strong className="text-fg">Visnagar, Mahesana</strong>, moments from Unjha — Asia&apos;s largest cumin and fennel trading market with over ₹15,000 Cr in daily turnover. This proximity gives us unmatched sourcing depth, real-time market intelligence, and genuine traceability to farm level.
+                                We are based in <strong className="text-fg">{siteConfig.location.city}, {siteConfig.location.state}</strong>, {siteConfig.location.nearBy}. This proximity gives us unmatched sourcing depth, real-time market intelligence, and genuine traceability to farm level.
                             </p>
                             <p>
-                                Our products — whole spices, oil seeds, millets, dehydrated products, and specialty items — are processed in HACCP-certified facilities and shipped with complete documentation to importers in 11+ countries including USA, UK, Canada, UAE, and across Africa and Asia.
+                                {siteConfig.description}
                             </p>
                         </div>
 
