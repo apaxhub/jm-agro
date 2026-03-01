@@ -8,7 +8,7 @@ export const siteConfig = {
     description:
         "Premium Indian agricultural exporter specializing in spices, oil seeds, millets, dehydrated products, and agro commodities. Based in Visnagar, Gujarat — the heartland of Asia's largest spice trade.",
     location: {
-        city: "Visnagar",
+        city: "Mahesana",
         district: "Mahesana",
         state: "Gujarat",
         country: "India",

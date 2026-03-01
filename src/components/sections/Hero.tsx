@@ -15,7 +15,7 @@ export function Hero() {
             <motion.div
                 animate={{ y: [0, -15, 0], rotate: [0, 5, 0] }}
                 transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
-                className="absolute top-32 left-10 md:left-24 w-24 h-24 opacity-80 mix-blend-multiply pointer-events-none hidden md:block"
+                className="absolute top-32 left-10 md:left-24 w-24 h-24 pointer-events-none hidden md:block"
             >
                 <Image src="/assets/spices/leaf.png" alt="Mint Leaf" fill className="object-contain drop-shadow-sm" />
             </motion.div>
@@ -23,18 +23,11 @@ export function Hero() {
             <motion.div
                 animate={{ y: [0, 20, 0], rotate: [0, -10, 0] }}
                 transition={{ duration: 7, repeat: Infinity, ease: "easeInOut", delay: 1 }}
-                className="absolute bottom-40 left-1/4 w-32 h-32 opacity-70 mix-blend-multiply pointer-events-none hidden lg:block"
+                className="absolute bottom-40 left-1/4 w-32 h-32 opacity-90 mix-blend-multiply pointer-events-none hidden lg:block"
             >
                 <Image src="/assets/spices/cinnamon.png" alt="Cinnamon" fill className="object-contain drop-shadow-sm" />
             </motion.div>
 
-            <motion.div
-                animate={{ y: [0, -20, 0], rotate: [0, 15, 0] }}
-                transition={{ duration: 8, repeat: Infinity, ease: "easeInOut", delay: 2 }}
-                className="absolute top-40 right-1/4 w-20 h-20 opacity-80 mix-blend-multiply pointer-events-none hidden md:block"
-            >
-                <Image src="/assets/spices/anise.png" alt="Star Anise" fill className="object-contain drop-shadow-sm" />
-            </motion.div>
 
             {/* Hero Content */}
             <div className="container mx-auto px-4 md:px-8 relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center pt-24 pb-20">

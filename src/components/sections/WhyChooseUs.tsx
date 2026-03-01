@@ -35,7 +35,7 @@ export function WhyChooseUs() {
             <motion.div
                 animate={{ y: [0, -20, 0], rotate: [0, 10, 0] }}
                 transition={{ duration: 9, repeat: Infinity, ease: "easeInOut" }}
-                className="absolute top-24 -left-10 w-40 h-40 opacity-40 mix-blend-multiply pointer-events-none hidden lg:block"
+                className="absolute top-24 -left-10 w-40 h-40 opacity-80 mix-blend-multiply pointer-events-none hidden lg:block"
             >
                 <Image src="/assets/spices/cinnamon.png" alt="" fill className="object-contain" />
             </motion.div>
@@ -43,7 +43,7 @@ export function WhyChooseUs() {
             <motion.div
                 animate={{ y: [0, 20, 0], rotate: [0, -15, 0] }}
                 transition={{ duration: 7, repeat: Infinity, ease: "easeInOut" }}
-                className="absolute bottom-10 right-10 w-32 h-32 opacity-30 mix-blend-multiply pointer-events-none hidden xl:block z-0"
+                className="absolute bottom-10 right-10 w-32 h-32 opacity-90 mix-blend-multiply pointer-events-none hidden xl:block z-0"
             >
                 <Image src="/assets/spices/anise.png" alt="" fill className="object-contain" />
             </motion.div>

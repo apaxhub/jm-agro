@@ -5,9 +5,9 @@ import { certifications } from "@/data/siteData";
 
 export function CertCarousel() {
     return (
-        <section className="py-24 md:py-32 bg-fg text-surface overflow-hidden relative border-y-8 border-primary">
+        <section className="py-24 md:py-32 bg-primary text-surface overflow-hidden relative border-y-8 border-primary">
             {/* Background glow meant to subconsciously signal "safe" or "verified" */}
-            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[400px] bg-primary/20 blur-[100px] pointer-events-none rounded-full" />
+            {/* <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[400px] bg-primary blur-[100px] pointer-events-none rounded-full" /> */}
 
             <div className="container mx-auto px-4 md:px-8 max-w-6xl relative z-10">
                 <div className="flex flex-col lg:flex-row gap-16 lg:gap-24 items-center">
@@ -20,7 +20,7 @@ export function CertCarousel() {
                         transition={{ duration: 0.8 }}
                         className="lg:w-1/2"
                     >
-                        <div className="inline-block px-4 py-1.5 rounded-full bg-surface/10 border border-surface/20 text-xs font-bold tracking-widest uppercase mb-8">
+                        <div className="inline-block px-4 py-1.5 rounded-full bg-surface border border-surface/20 text-xs font-bold tracking-widest uppercase mb-8">
                             <span className="flex items-center gap-2">
                                 <span className="w-2 h-2 rounded-full bg-primary-light animate-pulse" />
                                 Verified Export Partner

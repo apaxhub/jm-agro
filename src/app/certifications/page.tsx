@@ -1,24 +1,11 @@
-import type { Metadata } from "next";
-import { CertCarousel } from "@/components/sections/CertCarousel";
-import { QualityDetails } from "@/components/sections/QualityDetails";
-import { SEOTextBlock } from "@/components/sections/SEOTextBlock";
-
-export const metadata: Metadata = {
-    title: "Certifications | FSSAI, HACCP, ISO, KOSHER | Tattvam Agri Export",
-    description:
-        "Tattvam Agri Export holds FSSAI, HACCP, ISO 22000, KOSHER, and Spices Board of India certifications — ensuring our products meet global import standards for USA, UK, EU, UAE, and more.",
-};
-
+// src/app/certifications/page.tsx
 export default function CertificationsPage() {
     return (
-        <main className="pt-24 min-h-screen bg-surface">
-            <SEOTextBlock
-                title="Our Global Certifications & Quality Standards"
-                content="Tattvam Agri Export is certified by FSSAI, HACCP, ISO 22000, KOSHER, and Spices Board of India. Our quality assurance protocols ensure zero-rejection imports across USA, UK, Canada, UAE, and 7+ more countries."
-                className="py-20 bg-surface"
-            />
-            <CertCarousel />
-            <QualityDetails />
+        <main className="pt-32 pb-24 bg-bg min-h-screen flex items-center justify-center">
+            <div className="text-center">
+                <h1 className="text-4xl md:text-5xl font-black text-fg mb-4 font-ibm">Certifications</h1>
+                <p className="text-muted text-lg border border-border bg-surface px-6 py-2 rounded-full inline-block">Page Under Construction</p>
+            </div>
         </main>
     );
 }

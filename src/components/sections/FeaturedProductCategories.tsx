@@ -14,7 +14,7 @@ export function FeaturedProductCategories() {
             <motion.div
                 animate={{ y: [0, 20, 0], rotate: [0, 5, 0] }}
                 transition={{ duration: 7, repeat: Infinity, ease: "easeInOut" }}
-                className="absolute top-10 right-10 w-32 h-32 opacity-30 mix-blend-multiply pointer-events-none hidden lg:block"
+                className="absolute top-10 right-10 w-32 h-32  mix-blend-multiply pointer-events-none lg:block"
             >
                 <Image src="/assets/spices/cinnamon.png" alt="" fill className="object-contain" />
             </motion.div>

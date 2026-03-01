@@ -1,22 +1,11 @@
-import type { Metadata } from "next";
-import { StepByStep } from "@/components/sections/StepByStep";
-import { SEOTextBlock } from "@/components/sections/SEOTextBlock";
-
-export const metadata: Metadata = {
-    title: "Export Process | Farm to Port | Tattvam Agri Export",
-    description:
-        "Tattvam's 5-step export process: certified farm sourcing in Gujarat, HACCP lab testing, food-grade packaging, full documentation, and global shipping — ensuring compliance for all international imports.",
-};
-
+// src/app/export-process/page.tsx
 export default function ExportProcessPage() {
     return (
-        <main className="pt-24 min-h-screen bg-bg">
-            <SEOTextBlock
-                title="Our Farm-to-Port Export Process"
-                content="From certified farms in Mahesana's Unjha belt to your destination port — every step of our export process is documented, tested, and compliant with international import standards."
-                className="py-20 bg-surface"
-            />
-            <StepByStep />
+        <main className="pt-32 pb-24 bg-bg min-h-screen flex items-center justify-center">
+            <div className="text-center">
+                <h1 className="text-4xl md:text-5xl font-black text-fg mb-4 font-ibm">Export Process</h1>
+                <p className="text-muted text-lg border border-border bg-surface px-6 py-2 rounded-full inline-block">Page Under Construction</p>
+            </div>
         </main>
     );
 }
