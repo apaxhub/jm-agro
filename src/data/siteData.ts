@@ -3,24 +3,24 @@
 // ============================================================
 
 export const siteConfig = {
-    brandName: "Real Hygiene",
-    tagline: "Reliable Manufacturer & Exporter of Medical Hygiene Supplies",
-    subtext: "Quality Surgical & Wound Care Products from Mahesana, Gujarat",
+    brandName: "JM Agro International",
+    tagline: "Trusted Spice Exporter from Unjha, Gujarat",
+    subtext: "Delivering High-Quality Whole Spices & Seeds Globally Since 1991",
     description:
-        "Real Hygiene Pvt. Ltd. is a trusted manufacturer, supplier and exporter of medical and hygiene products from Mahesana, Gujarat. Operating since 2001, we produce clinical dressings, surgical bandages, orthopedic bandages and related supplies. Our product range is designed for healthcare facilities, distributors and international buyers seeking consistent quality, hygienic manufacturing and reliable delivery.",
+        "Established in 1991, JM Agro International is a reliable exporter, manufacturer and supplier of premium whole spices and seeds from Unjha, Mahesana, Gujarat. The company sources coriander, cumin, sesame, fennel, mustard, carom, dill and other spices, ensuring hygienic processing and export readiness for international buyers seeking consistent quality, timely delivery and transparent trade partnerships. JM Agro International commits to quality assurance through rigorous checks, strong supply chain practices and professional export support.",
     location: {
-        city: "Vijapur",
+        city: "Unjha",
         district: "Mahesana",
         state: "Gujarat",
         country: "India",
-        pincode: "382028",
+        pincode: "384170",
         nearBy: "Gujarat",
-        address: "D-246/247, GIDC Ranasan, Ta-Vijapur, Dist. Mehsana, Gujarat - 382028, India",
+        address: "Opposite APMC Gate No 6, Visnagar Road, Gunj Bazar, Unjha, Mahesana, Gujarat - 384170, India",
     },
     contact: {
-        phone: "+91-2763-2284413",
-        email: "contact@realhygiene.com",
-        whatsapp: "+91-2763-2284413",
+        phone: "+91-97257-76787",
+        email: "",
+        whatsapp: "+91-97257-76787",
     },
     social: {
         linkedin: "#",
@@ -31,64 +31,102 @@ export const siteConfig = {
 
 export const products = [
     {
-        slug: "elastic-adhesive-bandage",
-        name: "Elastic Adhesive Bandage",
-        description: "Flexible and skin-friendly elastic adhesive bandages suitable for surgical and wound support applications.",
-        items: ["Elastic Adhesive Bandage"],
-        seoKeywords: ["elastic adhesive bandage exporter", "medical bandages", "surgical bandages"],
+        slug: "coriander-seeds",
+        name: "Coriander Seeds",
+        description: "Premium export-grade coriander seeds sourced and processed for clean flavour and high purity.",
+        items: ["Coriander Seeds"],
+        seoKeywords: ["coriander seeds exporter", "whole spices", "premium seeds"],
         color: "bg-surface",
         accent: "#E4E4E7",
         image: "/public/assets/products/product-1.png",
     },
     {
-        slug: "cotton-crepe-bandage",
-        name: "Cotton Crepe Bandage",
-        description: "High-quality cotton crepe bandages offering uniform pressure and breathability, ideal for clinical use.",
-        items: ["Cotton Crepe Bandage"],
-        seoKeywords: ["cotton crepe bandage manufacturer", "medical dressings", "wound care"],
+        slug: "cumin-seeds",
+        name: "Cumin Seeds",
+        description: "High-quality cumin seeds with strong aroma and rich taste, ideal for global spice markets.",
+        items: ["Cumin Seeds"],
+        seoKeywords: ["cumin seeds exporter", "spice supplier", "Indian spices"],
         color: "bg-surface",
         accent: "#E4E4E7",
         image: "/public/assets/products/product-2.png",
     },
     {
-        slug: "plaster-of-paris-bandage",
-        name: "Plaster Of Paris Bandage",
-        description: "Fast-setting plaster of Paris bandages designed for orthopedic and fracture care applications.",
-        items: ["Plaster Of Paris Bandage"],
-        seoKeywords: ["plaster of paris bandage supplier", "orthopedic bandages", "fracture care"],
+        slug: "sesame-seeds",
+        name: "Sesame Seeds",
+        description: "White and brown sesame seeds processed for export markets with consistent quality and packaging.",
+        items: ["White Sesame", "Brown Sesame"],
+        seoKeywords: ["sesame seeds exporter", "oil seeds", "bulk spices"],
         color: "bg-surface",
         accent: "#E4E4E7",
         image: "/public/assets/products/product-3.png",
     },
     {
-        slug: "surgical-gauze",
-        name: "Surgical Gauze & Dressings",
-        description: "Sterile and absorbent gauze dressings for surgical sites and wound care.",
-        items: ["Surgical Gauze", "Surgical Dressings", "Absorbent Gauze"],
-        seoKeywords: ["surgical gauze exporter", "sterile dressings", "wound care supplies India"],
+        slug: "mustard-seeds",
+        name: "Mustard Seeds",
+        description: "Yellow and black mustard seeds suitable for culinary export and industrial uses.",
+        items: ["Yellow Mustard", "Black Mustard"],
+        seoKeywords: ["mustard seeds exporter", "spice export", "bulk seeds"],
         color: "bg-surface",
         accent: "#E4E4E7",
         image: "/public/assets/products/product-4.png",
     },
     {
-        slug: "eye-pads-combine-dressings",
-        name: "Eye Pads & Combine Dressings",
-        description: "Comfortable eye pads and combined sterile dressings for clinical and surgical protection.",
-        items: ["Eye Pads", "Combine Dressings", "Sterile Eye Pads"],
-        seoKeywords: ["eye pads exporter", "combine dressings manufacturer", "sterile eye pads India"],
+        slug: "fennel-seeds",
+        name: "Fennel Seeds",
+        description: "Top-grade fennel seeds with light aroma and premium quality for seasoning and export.",
+        items: ["Fennel Seeds"],
+        seoKeywords: ["fennel seeds manufacturer", "seasoning spices", "export ready spices"],
         color: "bg-surface",
         accent: "#E4E4E7",
         image: "/public/assets/products/product-5.png",
+    },
+    {
+        slug: "carom-ajwain-seeds",
+        name: "Carom (Ajwain) Seeds",
+        description: "Natural carom seeds with strong flavour profile, processed for bulk export.",
+        items: ["Carom Seeds", "Ajwain"],
+        seoKeywords: ["ajwain seeds exporter", "carom seeds supplier", "Indian whole spices"],
+        color: "bg-surface",
+        accent: "#E4E4E7",
+        image: "/public/assets/products/product-6.png",
+    },
+    {
+        slug: "dill-seeds",
+        name: "Dill Seeds",
+        description: "Quality dill seeds with consistent size and aroma, packaged for international buyers.",
+        items: ["Dill Seeds"],
+        seoKeywords: ["dill seeds exporter", "aromatic spices", "global spice supply"],
+        color: "bg-surface",
+        accent: "#E4E4E7",
+        image: "/public/assets/products/product-7.png",
     }
 ];
 
 export const certifications = [
     {
-        name: "Sterility & Quality Compliance",
-        fullName: "Internal Quality Checks",
+        name: "APEDA Export Certification",
+        fullName: "Agricultural and Processed Food Products Export Development Authority",
         icon: "✅",
         image: "/public/assets/certifications/cert-1.png"
     },
+    {
+        name: "FSSAI Food Safety License",
+        fullName: "Food Safety and Standards Authority of India",
+        icon: "✅",
+        image: "/public/assets/certifications/cert-2.png"
+    },
+    {
+        name: "ISO Quality Management",
+        fullName: "ISO",
+        icon: "✅",
+        image: "/public/assets/certifications/cert-3.png"
+    },
+    {
+        name: "Spices Board of India Certification",
+        fullName: "Spices Board of India",
+        icon: "✅",
+        image: "/public/assets/certifications/cert-4.png"
+    }
 ];
 
 export const exportMarkets = [
