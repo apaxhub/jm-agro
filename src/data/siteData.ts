@@ -1,26 +1,26 @@
 // ============================================================
-//  VENU OVERSEAS – Single Source of Truth Data Layer
+//  REAL HYGIENE – Single Source of Truth Data Layer
 // ============================================================
 
 export const siteConfig = {
-    brandName: "Venu Overseas",
-    tagline: "Trusted Agriculture Exporter from Gujarat",
-    subtext: "Delivering Quality Pulses, Spices, Rice and Fresh Produce to Global Markets since 2023",
+    brandName: "Real Hygiene",
+    tagline: "Reliable Manufacturer & Exporter of Medical Hygiene Supplies",
+    subtext: "Quality Surgical & Wound Care Products from Mahesana, Gujarat",
     description:
-        "Venu Overseas, based in Mahesana, Gujarat, is a dedicated exporter and supplier of agricultural commodities including pulses, premium spices, rice varieties, fresh fruits and vegetables. With end-to-end quality checks and export logistics capability, we work closely with international buyers to meet diverse market requirements with timely delivery and transparent trade practices.",
+        "Real Hygiene Pvt. Ltd. is a trusted manufacturer, supplier and exporter of medical and hygiene products from Mahesana, Gujarat. Operating since 2001, we produce clinical dressings, surgical bandages, orthopedic bandages and related supplies. Our product range is designed for healthcare facilities, distributors and international buyers seeking consistent quality, hygienic manufacturing and reliable delivery.",
     location: {
-        city: "Mahesana",
+        city: "Vijapur",
         district: "Mahesana",
         state: "Gujarat",
         country: "India",
-        pincode: "384002",
+        pincode: "382028",
         nearBy: "Gujarat",
-        address: "F/20 Siddhi Vinayak Complex, Near Sarvodaya Bank, TB Road, Mahesana – 384002, Gujarat, India",
+        address: "D-246/247, GIDC Ranasan, Ta-Vijapur, Dist. Mehsana, Gujarat - 382028, India",
     },
     contact: {
-        phone: "+91 7990262851",
-        email: "venuoverseas57@gmail.com",
-        whatsapp: "+91 7990262851",
+        phone: "+91-2763-2284413",
+        email: "contact@realhygiene.com",
+        whatsapp: "+91-2763-2284413",
     },
     social: {
         linkedin: "#",
@@ -31,122 +31,133 @@ export const siteConfig = {
 
 export const products = [
     {
-        slug: "pulses",
-        name: "Pulses",
-        description: "Moong Dal, Chana Dal, Toor Dal, Green Gram, White Urad Dal and Brown Chana",
-        items: ["Moong Dal", "Chana Dal", "Toor Dal", "Green Gram", "White Urad Dal", "Brown Chana"],
-        seoKeywords: ["pulses export", "moong dal export", "chana dal exporter"],
+        slug: "elastic-adhesive-bandage",
+        name: "Elastic Adhesive Bandage",
+        description: "Flexible and skin-friendly elastic adhesive bandages suitable for surgical and wound support applications.",
+        items: ["Elastic Adhesive Bandage"],
+        seoKeywords: ["elastic adhesive bandage exporter", "medical bandages", "surgical bandages"],
         color: "bg-surface",
         accent: "#E4E4E7",
         image: "/public/assets/products/product-1.png",
     },
     {
-        slug: "rice",
-        name: "Basmati & Non-Basmati Rice",
-        description: "Parboiled and Raw Basmati Rice, Golden Sella variants",
-        items: ["Parboiled Basmati Rice", "Raw Basmati Rice", "Golden Sella"],
-        seoKeywords: ["basmati rice export", "non-basmati rice export", "golden sella rice exporter"],
+        slug: "cotton-crepe-bandage",
+        name: "Cotton Crepe Bandage",
+        description: "High-quality cotton crepe bandages offering uniform pressure and breathability, ideal for clinical use.",
+        items: ["Cotton Crepe Bandage"],
+        seoKeywords: ["cotton crepe bandage manufacturer", "medical dressings", "wound care"],
         color: "bg-surface",
         accent: "#E4E4E7",
         image: "/public/assets/products/product-2.png",
     },
     {
-        slug: "spices",
-        name: "Spices",
-        description: "Black Pepper, Dry Red Chilli, Cumin Seeds, Turmeric, Ginger and Seasonal Blends",
-        items: ["Black Pepper", "Dry Red Chilli", "Cumin Seeds", "Turmeric", "Ginger", "Seasonal Blends"],
-        seoKeywords: ["spices exporter", "black pepper export", "cumin seeds export", "turmeric export"],
+        slug: "plaster-of-paris-bandage",
+        name: "Plaster Of Paris Bandage",
+        description: "Fast-setting plaster of Paris bandages designed for orthopedic and fracture care applications.",
+        items: ["Plaster Of Paris Bandage"],
+        seoKeywords: ["plaster of paris bandage supplier", "orthopedic bandages", "fracture care"],
         color: "bg-surface",
         accent: "#E4E4E7",
         image: "/public/assets/products/product-3.png",
     },
     {
-        slug: "fresh-produce",
-        name: "Fresh Produce",
-        description: "Fresh Dragon Fruit, Watermelon, Papaya, Banana, Green Grapes and Vegetables",
-        items: ["Dragon Fruit", "Watermelon", "Papaya", "Banana", "Green Grapes", "Vegetables"],
-        seoKeywords: ["fresh produce export", "fruits exporter", "vegetables export India"],
+        slug: "surgical-gauze",
+        name: "Surgical Gauze & Dressings",
+        description: "Sterile and absorbent gauze dressings for surgical sites and wound care.",
+        items: ["Surgical Gauze", "Surgical Dressings", "Absorbent Gauze"],
+        seoKeywords: ["surgical gauze exporter", "sterile dressings", "wound care supplies India"],
         color: "bg-surface",
         accent: "#E4E4E7",
         image: "/public/assets/products/product-4.png",
     },
+    {
+        slug: "eye-pads-combine-dressings",
+        name: "Eye Pads & Combine Dressings",
+        description: "Comfortable eye pads and combined sterile dressings for clinical and surgical protection.",
+        items: ["Eye Pads", "Combine Dressings", "Sterile Eye Pads"],
+        seoKeywords: ["eye pads exporter", "combine dressings manufacturer", "sterile eye pads India"],
+        color: "bg-surface",
+        accent: "#E4E4E7",
+        image: "/public/assets/products/product-5.png",
+    }
 ];
 
 export const certifications = [
     {
-        name: "Export-Ready Quality Standards",
-        fullName: "Adherence to food safety and export quality norms; buyer to verify specific certifications as required",
+        name: "Sterility & Quality Compliance",
+        fullName: "Internal Quality Checks",
         icon: "✅",
         image: "/public/assets/certifications/cert-1.png"
     },
 ];
 
 export const exportMarkets = [
-    { name: "UAE", region: "Middle East", top: "46%", left: "60%", flag: "🇦🇪" },
-    { name: "Saudi Arabia", region: "Middle East", top: "50%", left: "58%", flag: "🇸🇦" },
-    { name: "Egypt", region: "Africa", top: "40%", left: "55%", flag: "🇪🇬" },
-    { name: "Morocco", region: "Africa", top: "35%", left: "48%", flag: "🇲🇦" },
-    { name: "Bangladesh", region: "South Asia", top: "48%", left: "74%", flag: "🇧🇩" },
-    { name: "China", region: "East Asia", top: "38%", left: "78%", flag: "🇨🇳" },
-    { name: "Thailand", region: "Southeast Asia", top: "55%", left: "80%", flag: "🇹🇭" },
-    { name: "Turkey", region: "Europe", top: "35%", left: "55%", flag: "🇹🇷" },
-    { name: "France", region: "Europe", top: "30%", left: "48%", flag: "🇫🇷" },
+    { name: "UAE", region: "Middle East", location: [23.4241, 53.8478], size: 0.05, flag: "🇦🇪" },
+    { name: "Saudi Arabia", region: "Middle East", location: [23.8859, 45.0792], size: 0.05, flag: "🇸🇦" },
+    { name: "Kenya", region: "Africa", location: [-1.2921, 36.8219], size: 0.05, flag: "🇰🇪" },
+    { name: "Nigeria", region: "Africa", location: [9.0820, 8.6753], size: 0.05, flag: "🇳🇬" },
+    { name: "Bangladesh", region: "South Asia", location: [23.6850, 90.3563], size: 0.05, flag: "🇧🇩" },
+    { name: "Sri Lanka", region: "South Asia", location: [7.8731, 80.7718], size: 0.05, flag: "🇱🇰" },
+    { name: "Vietnam", region: "Southeast Asia", location: [14.0583, 108.2772], size: 0.05, flag: "🇻🇳" },
+    { name: "Poland", region: "Eastern Europe", location: [51.9194, 19.1451], size: 0.05, flag: "🇵🇱" },
+    { name: "Romania", region: "Eastern Europe", location: [45.9432, 24.9668], size: 0.05, flag: "🇷🇴" },
 ];
 
 export const whyChooseUs = [
     {
-        title: "Quality Control",
-        description: "End-to-end quality checks emphasizing reliability in sourcing and export operations.",
+        title: "Clinical Quality",
+        description: "Strict quality control measures ensuring sterility and efficacy for medical use.",
         icon: "ShieldCheck",
     },
     {
-        title: "Global Reach",
-        description: "Supplying quality fresh produce and agricultural goods to global markets.",
+        title: "Export Ready",
+        description: "Supplying high-quality medical hygiene products to diverse international markets.",
         icon: "Globe",
     },
     {
-        title: "Transparent Trade",
-        description: "We work closely with international buyers to meet requirements with transparent practices.",
+        title: "Reliable Supply",
+        description: "Consistent manufacturing capacity to meet distributor and hospital bulk requirements.",
         icon: "Handshake",
     },
     {
-        title: "Timely Delivery",
-        description: "Ensuring timely delivery of all our commodities to diverse market requirements.",
+        title: "Industry Experience",
+        description: "Providing trusted surgical and wound care solutions since 2001.",
         icon: "Clock",
     },
 ];
 
 export const exportProcess = [
-    { step: 1, title: "Sourcing", description: "Procuring directly from the best farms in Gujarat." },
-    { step: 2, title: "Quality Check", description: "Rigorous quality checks for all fresh produce and agricultural goods." },
-    { step: 3, title: "Processing & Packaging", description: "Ensuring all products are packaged to meet export requirements." },
-    { step: 4, title: "Documentation", description: "Providing necessary certifications and export documentation." },
-    { step: 5, title: "Timely Export", description: "Efficient logistics for reliable global delivery." },
+    { step: 1, title: "Manufacturing", description: "Hygienic and standardized production of medical supplies." },
+    { step: 2, title: "Quality & Sterility Check", description: "Rigorous testing to ensure all products meet clinical standards." },
+    { step: 3, title: "Secure Packaging", description: "Medical-grade packaging to maintain sterility and product integrity." },
+    { step: 4, title: "Documentation", description: "Providing necessary export and compliance documentation for customs clearance." },
+    { step: 5, title: "Timely Dispatch", description: "Reliable logistics to deliver globally without delays." },
 ];
 
 export const blogPosts = [
     {
-        title: "Expanding Spices to Global Markets",
+        title: "Advancements in Wound Care Management",
         category: "Insights",
         date: "Jan 2024",
-        excerpt: "Venu Overseas explores the potential of the growing demand for Indian spices in the Middle East.",
+        excerpt: "Exploring modern techniques and the role of high-quality surgical dressings.",
     },
     {
-        title: "The Key to Quality Fresh Produce",
+        title: "Ensuring Sterility in Medical Manufacturing",
         category: "Quality",
         date: "Feb 2024",
-        excerpt: "How end-to-end quality checks ensure only the best fresh produce makes it to our international partners.",
+        excerpt: "A look into the rigorous quality checks behind our hygiene products.",
     },
     {
-        title: "Navigating International Pulse Trade",
+        title: "Global Supply Chains for Medical Consumables",
         category: "Trends",
         date: "Mar 2024",
-        excerpt: "An overview of market requirements and export opportunities for Indian pulses in Europe and Asia.",
+        excerpt: "How Real Hygiene is meeting the rising international demand for medical bandages.",
     },
     {
-        title: "Sourcing from Mahesana, Gujarat",
+        title: "Orthopedic Care and Plaster of Paris Bandages",
         category: "Guide",
         date: "Mar 2024",
-        excerpt: "Why the Mahesana region is becoming a hub for premium agricultural exports.",
+        excerpt: "Best practices for using PoP bandages in fracture management and rehabilitation.",
     },
 ];
+
